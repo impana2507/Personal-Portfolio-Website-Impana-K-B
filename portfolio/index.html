@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impana K B - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+                <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+                <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+                <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+                <li><a href="#education" class="nav-link" data-section="education">Education</a></li>
+                <li><a href="#certifications" class="nav-link" data-section="certifications">Certifications</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="section active">
+            <div class="home-container">
+                <div class="hero">
+                    <h1 class="name">Impana K B</h1>
+                    <h2 class="title">Jr. Software Engineer</h2>
+                    <div class="typewriter">
+                        <span id="typewriter-text"></span>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="images/imap_image.jpg" alt="Impana K B">
+                    </div>
+                    <div class="buttons">
+                        <a href="resume.pdf" class="btn" target="_blank"><i class="fas fa-file-pdf"></i> View Resume</a>
+                        <a href="https://github.com/impana2507" class="btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="https://www.linkedin.com/in/impana-k-b-653945299/" class="btn" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    </div>
+                    <div class="objective">
+                        <p>Recent B.E. graduate in Information Science Engineering with a passion for data and software development. Completed 6 months of training in Data Analysis and Data Science at Cravita Technology (with Fortune Cloud Technology), working on real-world projects, data visualization, and web development. Currently pursuing Python Full Stack Development, gaining expertise in frontend, backend, and data tools like Excel, Power BI, and Tableau. A hands-on learner who enjoys solving challenges and building practical solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-item">
+                            <span>Python</span>
+                            <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Java</span>
+                            <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Frameworks & Libraries</h3>
+                        <div class="skill-item">
+                            <span>Django</span>
+                            <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Flask</span>
+                            <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>React</span>
+                            <div class="progress-bar"><div class="progress" style="width: 75%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Bootstrap</span>
+                            <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Data Tools</h3>
+                        <div class="skill-item">
+                            <span>Power BI</span>
+                            <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Tableau</span>
+                            <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Excel</span>
+                            <div class="progress-bar"><div class="progress" style="width: 95%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Statistics</span>
+                            <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>SQL</span>
+                            <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Databases</h3>
+                        <div class="skill-item">
+                            <span>PostgreSQL</span>
+                            <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card" data-project="sentiment">
+                        <h3>Sentiment Analysis</h3>
+                        <p>Vacron Technology</p>
+                        <button class="btn">View Details</button>
+                    </div>
+                    <div class="project-card" data-project="dashboards">
+                        <h3>Data Visualization Dashboards</h3>
+                        <p>Cravita Technology</p>
+                        <button class="btn">View Details</button>
+                    </div>
+                    <div class="project-card" data-project="billing">
+                        <h3>Retail Billing System</h3>
+                        <p>Take It Smart</p>
+                        <button class="btn">View Details</button>
+                    </div>
+                </div>
+            </div>
+            <div id="project-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3 id="modal-title"></h3>
+                    <p id="modal-description"></p>
+                    <a id="modal-link" href="#" class="btn" target="_blank">View Code</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <div class="container">
+                <h2>Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3>Vacron Technology</h3>
+                        <p>Python with Data Science and Machine Learning Intern</p>
+                        <p>Aug 2024 – Sep 2024</p>
+                        <p>Developed real-world Python projects including Sentiment Analysis with 92–93% accuracy.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Take It Smart</h3>
+                        <p>Java Full Stack Developer Intern</p>
+                        <p>Feb 2025 – May 2025</p>
+                        <p>Built mini full-stack projects and improved problem-solving skills.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Cravita Technology India Pvt. Ltd.</h3>
+                        <p>Jr. Engineer Intern</p>
+                        <p>Apr 2025 – Present</p>
+                        <p>Built analytics projects using Power BI, Tableau, Excel, and SQL. Learned Python Full Stack (HTML, CSS, JavaScript, React).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <div class="container">
+                <h2>Education</h2>
+                <div class="education-grid">
+                    <div class="education-item">
+                        <h3>Bachelor of Engineering (Information Science)</h3>
+                        <p>Sambhram Institute of Technology, Bengaluru</p>
+                        <p>Aug 2021 – May 2025</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>Higher Secondary (PUC)</h3>
+                        <p>Telent PU College, Hunsur</p>
+                        <p>Aug 2021 – May 2021</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>Secondary School</h3>
+                        <p>Adharsha Vidhyalaya RMSA, Hunsur</p>
+                        <p>Aug 2019 – May 2019</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="section">
+            <div class="container">
+                <h2>Certifications</h2>
+                <div class="certifications-grid">
+                    <div class="certification-item">
+                        <h3>Python Full Stack Web Development</h3>
+                        <p>Capgemini & ICT Academy</p>
+                    </div>
+                    <div class="certification-item">
+                        <h3>Data Analytics and Data Science</h3>
+                        <p>Cravita Technology</p>
+                    </div>
+                    <div class="certification-item">
+                        <h3>Java Full Stack Web Development</h3>
+                        <p>Take It Smart</p>
+                    </div>
+                    <div class="certification-item">
+                        <h3>Python in Data Science with ML</h3>
+                        <p>Vacron Technology</p>
+                    </div>
+                    <div class="certification-item">
+                        <h3>Augmented Reality and Basic Python</h3>
+                        <p>Bolt IoT</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact</h2>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone"></i> 9945695235</p>
+                    <p><i class="fas fa-envelope"></i> impanaimpana00@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Bangalore, Karnataka, India</p>
+                </div>
+                <form id="contact-form">
+                    <input type="text" id="name" placeholder="Name" required>
+                    <input type="email" id="email" placeholder="Email" required>
+                    <textarea id="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+                <div class="social-links">
+                    <a href="https://github.com/impana2507" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/impana-k-b-653945299/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:impanaimpana00@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Impana K B</p>
+        <div class="social-links">
+            <a href="https://github.com/impana2507" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/impana-k-b-653945299/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:impanaimpana00@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </footer>
+
+    <button id="scroll-to-top" class="btn"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
